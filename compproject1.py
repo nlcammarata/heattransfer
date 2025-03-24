@@ -108,7 +108,7 @@ h = gauss_seidel_solver(h, Node)
 # Plot results
 plt.imshow(h.T, origin='lower', cmap='hot', extent=[0, 6, 0, 6])
 plt.colorbar(label='Temperature (K)')
-plt.title("Temperature Distribution in Turbine Blade")
+plt.title("Temperature Distribution")
 plt.xlabel("Width (mm)")
 plt.ylabel("Height (mm)")
 plt.show()
